@@ -1,0 +1,30 @@
+
+$container-width: 1100px;
+$gutter: 5px;
+$dir: rtl;
+$border-color: rgb(212, 82, 82);
+$font-color: blue;
+$border-style: dashed;
+$bg-danger: red;
+$bg-primary: rgba(0,0,250,.7);
+*{
+  direction: $dir;
+}
+.container {
+  max-width: $container-width;
+  padding: 0 $gutter;
+  border: 1px $border-style $border-color;
+  color: $font-color;
+}
+.btn{
+  padding: 5px 40px;
+  border: none;
+}
+.btn-danger{
+  background-color: $bg-danger;
+  color: white;
+}
+.btn-primary{
+  background-color: $bg-primary;
+  color: white;
+}

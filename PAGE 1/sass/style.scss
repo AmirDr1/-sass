@@ -1,0 +1,66 @@
+$color1: rgba(220, 220, 220, 0.6);
+$color2: #696969;
+$color3: #c0c0c0;
+$color: #f2f2f2f2;
+$a: #4b0082;
+$size: 50px;
+
+* {
+    direction: rtl;
+    box-sizing: border-box;
+
+}
+
+.color1 {
+    background-color: $color1;
+    color: $color;
+    padding: 6px 60px;
+}
+
+.color2 {
+    background-color: $color2;
+    color: $color;
+    padding: 6px 60px;
+    text-align: center;
+
+}
+
+.color3 {
+    background-color: $color3;
+    color: $color;
+    padding: 6px 60px;
+}
+
+.size {
+    color: $a;
+    font-size: $size;
+}
+main{
+ 
+ 
+}
+div{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+   
+}
+button{
+   
+
+}
+@mixin b{
+    padding: 6px 60px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    display: block;
+    font-weight: bolder;
+
+}
+.b-bad{
+    @include b;
+    background-color: $a;
+    
+
+}
